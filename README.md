@@ -22,7 +22,7 @@ installable APK with its own application ID. That matters for two reasons:
 
 - Android Studio automatically creates a **Run/Debug Configuration** for every app module
   it finds when it syncs the project.
-- Distinct application IDs mean students can have several sample apps installed on the
+- Distinct application IDs means we can have several sample apps installed on the
   same device or emulator at once without them overwriting each other.
 
 ## Running a sample
@@ -38,9 +38,9 @@ module automatically, so this list grows on its own as new samples are added.
 
 ## Samples
 
-| Module | Demonstrates |
-| --- | --- |
-| [`hello-kotlin`](hello-kotlin) | Minimal Android app: a single `Activity` using Jetpack Compose to show "Hello, Kotlin!" |
+| Module | Demonstrates | README |
+| --- | --- | --- |
+| [`hello-kotlin`](hello-kotlin) | Minimal Android app: a single `Activity` using Jetpack Compose to show "Hello, Kotlin!" | [README](hello-kotlin/README.md) |
 
 ## Adding a new sample
 
@@ -59,7 +59,9 @@ module automatically, so this list grows on its own as new samples are added.
    ```
 5. Sync Gradle. The new sample appears in the Run/Debug configurations dropdown and in
    the module tree — no other setup needed.
-6. Add a row to the table above.
+6. Write a `README.md` inside the new module explaining what it demonstrates (see
+   [`hello-kotlin/README.md`](hello-kotlin/README.md) for the format).
+7. Add a row to the table above, linking both the module folder and its README.
 
 ## Notes
 
@@ -68,7 +70,4 @@ module automatically, so this list grows on its own as new samples are added.
   bumping a library version only needs to happen in one place.
 - This project relies on Android Gradle Plugin 9's built-in Kotlin support, so modules do
   **not** apply a separate `org.jetbrains.kotlin.android` plugin.
-- `minSdk` is currently set to 36 (Android Studio's default for a brand-new project).
-  That's quite high for a teaching repo — it excludes any device or emulator older than
-  the newest Android release. Consider lowering it (e.g. to 24 or 26) in each module once
-  you know which devices/emulators students will actually use.
+- `minSdk` is currently set to 36 
