@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "KotlinSamples"
 include(":hello-kotlin")
 include(":login-form")
+include(":notes-database")

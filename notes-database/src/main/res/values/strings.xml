@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Notes Database</string>
+
+    <string name="notes_title">Notes</string>
+    <string name="add_note">Add note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="new_note_heading">New note</string>
+    <string name="edit_note_heading">Edit note</string>
+    <string name="note_title_label">Title</string>
+    <string name="note_body_label">Note</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="empty_state_title">No notes yet</string>
+    <string name="empty_state_body">Tap the + button to add your first note.</string>
+    <string name="note_added">Note added</string>
+    <string name="note_updated">Note updated</string>
+    <string name="note_deleted">Note deleted</string>
+</resources>
