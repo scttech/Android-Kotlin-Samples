@@ -41,6 +41,7 @@ module automatically, so this list grows on its own as new samples are added.
 | Module | Demonstrates | README |
 | --- | --- | --- |
 | [`hello-kotlin`](hello-kotlin) | Minimal Android app: a single `Activity` using Jetpack Compose to show "Hello, Kotlin!" | [README](hello-kotlin/README.md) |
+| [`login-form`](login-form) | A username/password login form with input validation and success/error feedback, built with Jetpack Compose | [README](login-form/README.md) |
 
 ## Adding a new sample
 

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login Form</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="login_button">Log in</string>
+    <string name="error_username_required">Username is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="login_success">Welcome, %1$s! You\'re logged in.</string>
+</resources>
