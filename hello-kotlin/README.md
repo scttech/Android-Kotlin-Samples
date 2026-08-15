@@ -33,6 +33,31 @@ Kotlin using functions annotated `@Composable`. Everything lives in one file:
   the XML theme referenced from the manifest. Compose UI is styled separately via
   `MaterialTheme` in Kotlin, but the manifest still needs a base XML theme.
 
+## Code
+
+A breakdown of the interesting pieces of the code
+
+### HelloKotlin
+
+We define the function with `fun`
+
+Using Jetpack Compose we annotate the `HelloKotlin` function with `@Composable` 
+designating the function as a building block for the UI.
+
+`Box` is a layout mechanism for the UI.  We've told it with `Modifier.fillMaxSize()` to
+take up the whole screen.  Then we align the contents with `contentAlignment`
+
+We then use `Text` to add a string of text within the `Box` layout.
+
+```kotlin
+@Composable   
+fun HelloKotlin() {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Text(text = "Hello, Kotlin!", style = MaterialTheme.typography.headlineMedium)
+    }
+}
+```
+
 ## Try it yourself
 
 - Change the string in `Text(text = "Hello, Kotlin!")` and re-run.
