@@ -10,6 +10,8 @@ The default login credentials for the app are:
 * Username is `admin`
 * Password is `password`
 
+<img src="screenshots/login-form.png" alt="Login Form screen with Username and Password fields, a Show password toggle, and a Log in button" width="240">
+
 ## What it demonstrates
 
 This sample uses [Jetpack Compose](https://developer.android.com/develop/ui/compose) to

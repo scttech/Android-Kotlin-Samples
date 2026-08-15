@@ -4,6 +4,8 @@ The simplest possible starting point: one screen that shows the text **"Hello, K
 centered on a plain background. No user interaction, no navigation — just enough to see
 how a Kotlin/Compose Android app is wired together end to end.
 
+<img src="screenshots/hello-kotlin.png" alt="Hello Kotlin screen showing the text &quot;Hello, Kotlin!&quot; centered on a plain background" width="240">
+
 ## What it demonstrates
 
 This sample uses [Jetpack Compose](https://developer.android.com/develop/ui/compose),
