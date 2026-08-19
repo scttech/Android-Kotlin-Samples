@@ -43,6 +43,7 @@ module automatically, so this list grows on its own as new samples are added.
 | [`hello-kotlin`](hello-kotlin) | Minimal Android app: a single `Activity` using Jetpack Compose to show "Hello, Kotlin!" | [README](hello-kotlin/README.md) |
 | [`login-form`](login-form) | A username/password login form with input validation and success/error feedback, built with Jetpack Compose | [README](login-form/README.md) |
 | [`notes-database`](notes-database) | A notes app demonstrating CRUD operations against a local SQLite database with Room | [README](notes-database/README.md) |
+| [`compose-layouts`](compose-layouts) | A catalog of core Jetpack Compose layouts: `Column`, `Row`, `Box`, weighted children, `LazyColumn`, and `LazyRow` | [README](compose-layouts/README.md) |
 
 ## Adding a new sample
 
